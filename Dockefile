@@ -1,0 +1,4 @@
+FROM web3go:v1.0.0
+COPY start.sh /start.sh
+RUN chmod 777 /start.sh
+CMD ["/bin/bash","-c","/start.sh"]
