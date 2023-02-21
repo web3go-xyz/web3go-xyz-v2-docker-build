@@ -21,5 +21,5 @@ N/A
 | 0d. | Docker  | [UI]( https://hub.docker.com/r/web3go/release ), [service]( https://hub.docker.com/r/web3go/portal-service ) | Images on docker hub |— |
 | 0e. | Article | [medium](https://web3go.medium.com/introducing-web3go-fcf5f1880a72), [medium](https://web3go.medium.com/rmrk-nft-garden-dashboard-introduction-2e773238db01), [medium](https://web3go.medium.com/moonbeam-moonriver-staking-dashboards-tracking-and-simulation-14fcc6f7024e) | — |
 | 1. | UI Module: semi-automatic chart generation | [https://dev-v2.web3go.xyz/](https://github.com/web3go-xyz/portal-ui/blob/7d10c762c052d5dee87a8466f6093befc58a9adf/src/components/customQuery/CustomQuery.vue) |
-| 2. | UI Module:fully-automatic chart generation|https://dev-v2.web3go.xyz/ | Production: [[https://dev-v2.web3go.xyz/](https://dev-v2.web3go.xyz/) ; To reproduce locally, following the testing guide for UI: https://github.com/web3go-xyz/portal-ui/blob/main/testing-with-dockerfile.md |
+| 2. | UI Module:fully-automatic chart generation|https://dev-v2.web3go.xyz/ | Production:  |
 
