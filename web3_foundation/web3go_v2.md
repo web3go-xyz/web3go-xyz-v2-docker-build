@@ -1,5 +1,5 @@
 # Web3go-v2 Delivery :mailbox:
-
+Cancel changes
 
 **The [invoice form :pencil:](https://docs.google.com/forms/d/e/1FAIpQLSfmNYaoCgrxyhzgoKQ0ynQvnNRoTmgApz9NrMp-hd8mhIiO0A/viewform) has been filled out correctly for this Web3go-v2 and the delivery is according to the official [web3go-v2 delivery guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
@@ -23,8 +23,3 @@ N/A
 | 1. | UI Module: semi-automatic chart generation | [https://dev-v2.web3go.xyz/](https://github.com/web3go-xyz/portal-ui/blob/7d10c762c052d5dee87a8466f6093befc58a9adf/src/components/customQuery/CustomQuery.vue) |
 | 2. | UI Module:general WebApp |https://dev-v2.web3go.xyz/ | Production: [[https://dev-v2.web3go.xyz/](https://dev-v2.web3go.xyz/) ; To reproduce locally, following the testing guide for UI: https://github.com/web3go-xyz/portal-ui/blob/main/testing-with-dockerfile.md |
 
-
-
-**Additional Information**
-
-There is a deviation that the token tracker: we have implemented the token trackers for DOT, GLMR, MOVR, and RMRK NFT collection instead of KSM, KAR, and kUSD because we have chosen the most active and meaningful tokens in Polkadot Ecosystem. But all trackers for the native token in Polkadot will be implemented one by one.  it is only a matter of time.  We also have done more analytics beyond the contract: including the profile in Polkadot, which has integrated the identity module: https://web3go.xyz/#/ProfileHome,  and account analytics for Moonbeam, Moonriver, and Polkadot, which locates at https://web3go.xyz/#/Insight
