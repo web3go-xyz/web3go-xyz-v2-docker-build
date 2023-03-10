@@ -29,9 +29,11 @@
 ## 6.When finish configrature three Program modules, Commit the container into a image.
      docker commit d2d9dc56552b -a “web3go@web3go.xyz” -m “web3go”  web3go:v1.0.2  
     
-## 7.build the web3go:v1.0.2 with dockerfile and start.sh
-   docker bulid -t web3gov2:release .
-  
-          . 
+## 7.build final release with dockerfile and start.sh
+   
+   modify Dockerfile
+   then:
+   docker bulid -t web3go:xxxxx .
+
    
    
