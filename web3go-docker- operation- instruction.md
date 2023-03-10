@@ -3,7 +3,7 @@
     Nginx :80       
     Redis:6379
     Metabase:3000  
-    web3-extends:12351
+    web3-extends:12350
     Mbstoreapi:12346
 ## 2.the 5 services program at web3go docker image location.
     /var/www/html/web3go
