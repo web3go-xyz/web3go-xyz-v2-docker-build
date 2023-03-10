@@ -53,6 +53,11 @@ logging: false,
    
 ## 6.When finish configrature three Program modules, Commit the container into a image.
      sudo docker commit 19eb8a36dbe1 web3go:v2-base 
+     sudo docker tag xxxx  web3go/web3go:v2-base
+     
+     sudo docker login
+     sudo docker push  web3go/web3go:v2-base
+
     
 ## 7.build final release with dockerfile and start.sh
    
