@@ -31,21 +31,17 @@ sudo docker cp /home/ubuntu/dev-web3go-v2/web3go-xyz-v2/v2-mvp/app-inherit-metab
 
 enter docker and change some constants
 
-dist/base/setting/appConfig.js
+/var/www/html/web3go/web3-extends/dist/base/setting/appConfig.js
 
-synchronize: false
-logging: false,
+   synchronize: false
+   logging: false,
 
- static IMG_UPLOAD_DIR = process.env.IMG_UPLOAD_DIR || '/var/www/html/web3go/imgUpload/';
- 
-
-        need to modify /src/base/settings/appConfig.ts
-         PORT = 12350
-         BASE_API_URL = http://localhost:12350
-         BASE_WEB_URL = http://localhost:3000
-         IMG_UPLOAD_DIR: "/var/www/html/web3go/imgUpload"
-        yarn --production
-        yarn cache clean
+   static IMG_UPLOAD_DIR = process.env.IMG_UPLOAD_DIR || '/var/www/html/web3go/imgUpload/';
+   redis.port=6379 , redis.password='redis#123'
+         
+  yarn --production
+  yarn cache clean
+  
    replace metabase.tar(port:3000)
    ```
    
