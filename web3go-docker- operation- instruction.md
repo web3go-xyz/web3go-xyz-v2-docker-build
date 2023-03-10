@@ -16,10 +16,10 @@
    Mbstoreapi(port:12346)
         yarn --production
         yarn cache clean
-   Web3-extends(port:12351)
+   Web3-extends(port:12350)
         need to modify /src/base/settings/appConfig.ts
-         PORT = 12351
-         BASE_API_URL = http://localhost:12351
+         PORT = 12350
+         BASE_API_URL = http://localhost:12350
          BASE_WEB_URL = http://localhost:3000
          IMG_UPLOAD_DIR: "/var/www/html/web3go/imgUpload"
         yarn --production
@@ -27,7 +27,7 @@
    replace metabase.tar(port:3000)
    ```
 ## 6.When finish configrature three Program modules, Commit the container into a image.
-     docker commit d2d9dc56552b -a “web3go@web3go.xyz” -m “web3go”  web3go:v1.0.2  
+     docker commit d2d9dc56552b -a “web3go@web3go.xyz” -m “web3go”  web3go:v2-base  
     
 ## 7.build final release with dockerfile and start.sh
    
