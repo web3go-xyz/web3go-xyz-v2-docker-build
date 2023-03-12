@@ -1,5 +1,4 @@
 # Web3go-v2 Delivery :mailbox:
-Cancel changes
 
 **The [invoice form :pencil:](https://docs.google.com/forms/d/e/1FAIpQLSfmNYaoCgrxyhzgoKQ0ynQvnNRoTmgApz9NrMp-hd8mhIiO0A/viewform) has been filled out correctly for this Web3go-v2 and the delivery is according to the official [web3go-v2 delivery guidelines](https://github.com/w3f/Grants-Program/blob/master/docs/milestone-deliverables-guidelines.md).**  
 
@@ -15,10 +14,10 @@ N/A
 
 | Number | Deliverable | Link | Notes |
 | ------ | ----------- | :------: |----------------- |
-| 0a. | License  | [ui](https://github.com/web3go-xyz/portal-ui/blob/756f98c7b7f4e905c71aecc3cde4203f87788286/LICENSE)(Apache 2.0), [service](https://github.com/web3go-xyz/portal-service/blob/9c36e31f1dff908a4cec1ad73746b5df6fabc624/LICENSE) (Apache 2.0),  [service-extends](https://github.com/web3go-xyz/portal-service/blob/9c36e31f1dff908a4cec1ad73746b5df6fabc624/LICENSE) (Apache 2.0) | — |
-| 0b. | Documentation | [doc.web3go.xyz](https://doc.web3go.xyz) | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can use the existing data board, and use the UI to create/publish their own customized data board|
-| 0c. | Testing Guide | UI and Api service : https://github.com/web3go-xyz/web3go-xyz-v2-docker-build/blob/main/web3_foundation/testing-with-dockerfile.md| Guides to reproduce the services locally |
-| 0d. | Docker  | [UI]( https://hub.docker.com/r/web3go/release ), [service]( https://hub.docker.com/r/web3go/portal-service ) | Images on docker hub |— |
-| 0e. | Article | [medium](https://web3go.medium.com/introducing-web3go-fcf5f1880a72), [medium](https://web3go.medium.com/rmrk-nft-garden-dashboard-introduction-2e773238db01), [medium](https://web3go.medium.com/moonbeam-moonriver-staking-dashboards-tracking-and-simulation-14fcc6f7024e) | — |
-| 1. | UI Module: semi-automatic chart generation | [https://dev-v2.web3go.xyz/](https://github.com/web3go-xyz/portal-ui/blob/7d10c762c052d5dee87a8466f6093befc58a9adf/src/components/customQuery/CustomQuery.vue) |
-| 2. | UI Module:fully-automatic chart generation|https://dev-v2.web3go.xyz/ | 
+| 0a. | License  | [App-v2](https://github.com/web3go-xyz/web3go-xyz-v2/blob/docker-build-for-w3/LICENSE)(Apache 2.0) | — |
+| 0b. | Documentation | [Tutorial](https://web3go.notion.site/M2-Delivery-Web3Go-V2-0f083900301a451a8e60042a3755a03a)  | We will provide a basic **tutorial** that explains how a user can signup/signin the application, and use the UI to create/publish their own customized data board|
+| 0c. | Testing Guide | [Test Doc](https://web3go.notion.site/M2-Delivery-Web3Go-V2-0f083900301a451a8e60042a3755a03a) | Guides to reproduce the services locally |
+| 0d. | Docker  | [App-v2](https://hub.docker.com/layers/web3go/web3go/v2-alpha-0.3/images/sha256-b16a63f497936cf17a8d3f6ab5a6200854f5be957720715e82052b56c936ba99?context=explore)  |  Images on docker hub |
+| 0e. | Article |   | — |
+| 1. | UI Module: semi-automatic chart generation | https://dev-v2.web3go.xyz/ | Production: https://dev-v2.web3go.xyz ; To reproduce locally, following the testing guide for UI: https://web3go.notion.site/M2-Delivery-Web3Go-V2-0f083900301a451a8e60042a3755a03a |
+| 2. | UI Module:fully-automatic chart generation|https://dev-v2.web3go.xyz/ |  Production: https://dev-v2.web3go.xyz ; To reproduce locally, following the testing guide for UI: https://web3go.notion.site/M2-Delivery-Web3Go-V2-0f083900301a451a8e60042a3755a03a |
